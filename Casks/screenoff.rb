@@ -16,4 +16,9 @@ cask "screenoff" do
   zap trash: [
     "~/Library/Preferences/me.nickxu.screenoff.plist",
   ]
+
+  caveats <<~EOS
+    ScreenOff is currently unsigned and not notarized. macOS may require
+    approval in System Settings > Privacy & Security before the app opens.
+  EOS
 end

@@ -18,7 +18,9 @@ cask "screenoff" do
   ]
 
   caveats <<~EOS
-    ScreenOff is currently unsigned and not notarized. macOS may require
-    approval in System Settings > Privacy & Security before the app opens.
+    ScreenOff is currently unsigned and not notarized. If macOS says the app
+    is damaged, remove the quarantine attribute after installation:
+
+      xattr -dr com.apple.quarantine /Applications/ScreenOff.app
   EOS
 end

@@ -8,7 +8,7 @@ cask "screenoff" do
   homepage "https://github.com/nickxudotme/screenoff"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ScreenOff.app"
   binary "#{appdir}/ScreenOff.app/Contents/Resources/screenoff"

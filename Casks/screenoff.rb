@@ -1,6 +1,6 @@
 cask "screenoff" do
-  version "0.1.3"
-  sha256 "d8093904cf1286783609ed23d41ab586d1a4c0ce343650cd70f324379b7c9626"
+  version "0.1.4"
+  sha256 "c90f2c5bb24441936ebda1a24898d4443fbeb42963325d20352378561796b02b"
 
   url "https://github.com/nickxudotme/screenoff/releases/download/v#{version}/ScreenOff-#{version}.zip"
   name "ScreenOff"

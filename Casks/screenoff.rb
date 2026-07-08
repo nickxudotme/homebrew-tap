@@ -18,9 +18,26 @@ cask "screenoff" do
   ]
 
   caveats <<~EOS
-    ScreenOff is currently unsigned and not notarized. If macOS says the app
-    is damaged, remove the quarantine attribute after installation:
+    🎉 ScreenOff has been installed successfully!
 
-      xattr -dr com.apple.quarantine /Applications/ScreenOff.app
+    If macOS prevents ScreenOff from opening on first launch,
+    run the following command once:
+
+        xattr -dr com.apple.quarantine /Applications/ScreenOff.app
+
+    Then launch ScreenOff again.
+
+    ────────────────────────────────────────
+
+    🎉 ScreenOff 安装成功！
+
+    如果首次打开时 macOS 阻止启动，请执行下面的命令：
+
+        xattr -dr com.apple.quarantine /Applications/ScreenOff.app
+
+    然后重新打开 ScreenOff 即可。
+
+    GitHub:
+      https://github.com/nickxudotme/screenoff
   EOS
 end

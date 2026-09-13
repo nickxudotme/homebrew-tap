@@ -7,6 +7,10 @@ cask "agenterm" do
   desc "Local-first terminal with ZMODEM file transfer"
   homepage "https://agenterm.nickxu.me/"
 
+  livecheck do
+    skip "Agenterm releases are updated by the release workflow"
+  end
+
   depends_on arch: :arm64
   depends_on macos: :big_sur
 

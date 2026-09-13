@@ -21,3 +21,13 @@ ScreenOff installs:
 
 - `ScreenOff.app`
 - `screenoff` CLI
+
+## Agenterm
+
+Install the app:
+
+```sh
+brew install --cask nickxudotme/tap/agenterm
+```
+
+Agenterm installs `Agenterm.app` for Apple Silicon Macs.

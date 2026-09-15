@@ -1,6 +1,6 @@
 cask "agenterm" do
-  version "0.1.0"
-  sha256 "2829594f2660c9820f2b3551f655ca4a11a18ef43bed7d401bf30b0ac973fdca"
+  version "0.1.1"
+  sha256 "2353a4b0cac51af89dce0e865f530f8cd52977c1abe2670281bc99ca443d6959"
 
   url "https://github.com/nickxudotme/agenterm/releases/download/v#{version}/Agenterm-#{version}-arm64.zip"
   name "Agenterm"

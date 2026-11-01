@@ -1,6 +1,6 @@
 cask "bilinext" do
-  version "0.1.7"
-  sha256 "6f4b19e8b0a26810f899f691f46f9425a4b3f28c20766838fb7beff3cc8d9d3f"
+  version "0.1.6"
+  sha256 "fdedf53d6a1c59003fd8dcde40a4679c2f3a3b79c1ad49a1a90d00e9adf183fd"
 
   url "https://github.com/nickxudotme/BiliNext/releases/download/v#{version}/BiliNext-#{version}-arm64.zip"
   name "BiliNext"
